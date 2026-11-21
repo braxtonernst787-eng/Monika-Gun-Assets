@@ -1,0 +1,12 @@
+# Generated
+build/
+.gradle/
+run/
+.idea/
+out/
+*.iml
+
+# Other people's mods: never commit these
+libs/*.jar
+*.jar
+!gradle/wrapper/gradle-wrapper.jar

@@ -1,0 +1,7 @@
+To build from source, put these two jars here, renamed EXACTLY:
+
+  monicraft-1.0.0.jar   (the Monicraft jar)
+  tacz-1.0.0.jar        (the TACZ jar for Forge 1.20.1)
+
+The "1.0.0" is only a label for Gradle; it does not need to match the real versions.
+These jars belong to their authors and are not included in this repository.

@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="monika_guns"
+version="1.0.0"
+displayName="Monika Guns"
+authors="Voidix"
+credits="Monicraft by nownetted and CGT; TACZ (Timeless and Classics Zero) by its authors. This addon is unofficial and not affiliated with either."
+description='''An addon that lets Monicraft's Monika use TACZ guns.
+Requires Monicraft and TACZ.'''
+
+[[dependencies.monika_guns]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.monika_guns]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.monika_guns]]
+    modId="tacz"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.monika_guns]]
+    modId="monicraft"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
